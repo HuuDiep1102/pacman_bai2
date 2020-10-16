@@ -6,7 +6,7 @@ Giải thuật Minimax Hai người chơi trong game được đại diện là 
 Đầu tiên chúng ta cần 1 hàm để biết trạng thái game hiện tại đã thắng, thua hay hòa. 
 Tiếp theo là cần tìm nước tốt nhất cần đi.
 Và tiếp đến là hàm tính giá trị minimax của các nước đó.
-# Alpha beta pruning
+#alpha beta pruning
 Nút Max có một giá trị alpha (lớn hơn hoặc bằng alpha – luôn tăng), nút min có một giá trị beta (nhỏ hơn hoặc bằng beta – luôn giảm). Khi chưa có alpha và beta xác định thì thực hiện tìm kiếm sâu (depth-first) để xác định được alpha, beta, và truyền ngược lên các nút cha.
 
 #Expectimax	
